@@ -1,0 +1,69 @@
+
+/* 
+---------------------------------------------
+Contact Style
+--------------------------------------------- 
+*/
+
+.contact {
+    background-image: url(../../public/images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0p 50px 0px;
+    text-align:center;
+    font-size: large;
+  }
+  
+  .contact .section-heading h6 {
+    color: var(--main-color);
+    font-size: larger;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  .contact .section-heading h2{
+    color:aliceblue;
+    padding-bottom: 30px;
+  }
+.contact-content{
+  padding:20px;
+}
+.contact-container{
+    display:flex;
+    justify-content: space-between;
+    padding :0px 20px;
+
+}
+  .row-second{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px ;
+  }
+  /* Contact with us */
+
+#contact-form{
+  box-shadow: 0 0 10px gray;
+  border-radius: 10px;
+  padding:20px;
+} 
+fieldset{
+  border:none;
+  font-size: large;
+  padding: 0px;
+}
+fieldset>button{
+  background-color: var(--main-color);
+  color:aliceblue;
+  border: none;
+  padding: 10px 20px;
+  font-size: large;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+input,textarea{
+  width: 95%;
+  padding:5px;
+  font-size: large;
+  margin-top: 10px;
+}

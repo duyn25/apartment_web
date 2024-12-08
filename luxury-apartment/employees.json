@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Nguyen Van A",
+    "email": "nguyenvana@example.com",
+    "password": "password123",
+    "role": "admin",
+    "avatar": "logo.png"
+  },
+  {
+    "name": "Tran Thi B",
+    "email": "tranthib@example.com",
+    "password": "password456",
+    "role": "manager",
+    "avatar": "logo.png"
+  },
+  {
+    "name": "Le Van C",
+    "email": "levanc@example.com",
+    "password": "password789",
+    "role": "employee",
+    "avatar": "logo.png"
+  },
+  {
+    "name": "Pham Thi D",
+    "email": "phamthid@example.com",
+    "password": "passwordabc",
+    "role": "employee",
+    "avatar": "logo.png"
+  },
+  {
+    "name": "Hoang Van E",
+    "email": "hoangvane@example.com",
+    "password": "passworddef",
+    "role": "admin",
+    "avatar": "logo.png"
+  },
+  {
+    "name": "Vu Thi F",
+    "email": "vuthif@example.com",
+    "password": "passwordghi",
+    "role": "manager",
+    "avatar": "logo.png"
+  },
+  {
+    "name": "Do Van G",
+    "email": "dovang@example.com",
+    "password": "passwordjkl",
+    "role": "employee",
+    "avatar": "logo.png"
+  },
+  {
+    "name": "Nguyen Thi H",
+    "email": "nguyenthih@example.com",
+    "password": "passwordmno",
+    "role": "employee",
+    "avatar": "logo.png"
+  },
+  {
+    "name": "Tran Van I",
+    "email": "tranvani@example.com",
+    "password": "passwordpqr",
+    "role": "admin",
+    "avatar": "logo.png"
+  },
+  {
+    "name": "Le Thi J",
+    "email": "lethij@example.com",
+    "password": "passwordstu",
+    "role": "manager",
+    "avatar": "logo.png"
+  }
+]

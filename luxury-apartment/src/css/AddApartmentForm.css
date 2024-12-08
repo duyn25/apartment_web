@@ -1,0 +1,38 @@
+.add-apartment-container{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    z-index: 1200;
+    background-color: rgba(240, 255, 255, 0.257);
+}
+.add-apartment-container .insert-apartment-form{
+    min-width: 800px;
+    background-color: rgb(246, 248, 248);
+    overflow-y: scroll;
+    padding:10px;
+    width:1200px;
+   
+}
+.insert-apartment-form .fa-circle-xmark{
+    float:right;
+    padding:5px;
+    cursor:pointer;
+
+}
+.insert-apartment-form .fa-circle-xmark:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.insert-apartment-form .info-apartment-box{
+    background-color: azure;
+    margin:10px 0px;
+    padding:10px;
+    border-radius: 10px;
+}
+.info-apartment-box>input{
+    width: 100%;
+}

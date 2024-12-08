@@ -1,0 +1,24 @@
+.access-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.access-container a {
+    color: var(--main-color);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.access-container a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.access-container .divider {
+    color: var(--main-color);
+    padding: 0 5px;
+}

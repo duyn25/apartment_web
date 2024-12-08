@@ -1,0 +1,58 @@
+.account {
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+.account:hover {
+    background-color: #e0e0e0; 
+    border-color: #bbb; 
+}
+
+.account:hover .account-option {
+    display: block;
+}
+
+.account-option {
+    position: absolute;
+    top: 70px; 
+    right: 0;
+    padding: 0;
+    background-color: #ffffff; 
+    border-radius: 0 0 5px 5px;
+    width: 190px; 
+    display: none;
+    box-shadow: 0 4px 8px #cccccc; 
+    z-index: 1000; 
+}
+
+.account-option > li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-bottom: solid 1px #ddd; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.account-option > li:hover {
+    background-color: #f1f1f1; 
+    color: #007bff; 
+}
+
+.account-option > li > i {
+    padding-right: 12px; 
+    color: #555; 
+    transition: color 0.3s; 
+}
+
+.account-option > li:hover > i {
+    color: #007bff; 
+}

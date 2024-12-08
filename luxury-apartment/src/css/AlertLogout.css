@@ -1,0 +1,61 @@
+
+.alert-logout-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+}
+
+.alert-logout-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.alert-logout-box h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.alert-logout-box p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.alert-logout-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.alert-logout-button {
+    border: none;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.alert-logout-button:hover {
+    transform: scale(1.05); 
+}
+
+.alert-logout-button.logout {
+    background-color: #007bff; 
+}
+
+.alert-logout-button.cancel {
+    background-color: #f35525
+}

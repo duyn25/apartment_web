@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "password123",
+      "avatar": "alice.png"
+    },
+    {
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "password": "password123",
+      "avatar": "bob.png"
+    },
+    {
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "password": "password123",
+      "avatar": "charlie.png"
+    },
+    {
+      "name": "Diana Ross",
+      "email": "diana.ross@example.com",
+      "password": "password123",
+      "avatar": "diana.png"
+    },
+    {
+      "name": "Evan Green",
+      "email": "evan.green@example.com",
+      "password": "password123",
+      "avatar": "evan.png"
+    },
+    {
+      "name": "Fiona Blue",
+      "email": "fiona.blue@example.com",
+      "password": "password123",
+      "avatar": "fiona.png"
+    },
+    {
+      "name": "George White",
+      "email": "george.white@example.com",
+      "password": "password123",
+      "avatar": "george.png"
+    },
+    {
+      "name": "Hannah Black",
+      "email": "hannah.black@example.com",
+      "password": "password123",
+      "avatar": "hannah.png"
+    },
+    {
+      "name": "Ian Grey",
+      "email": "ian.grey@example.com",
+      "password": "password123",
+      "avatar": "ian.png"
+    },
+    {
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "password": "password123",
+      "avatar": "jane.png"
+    }
+  ]
+  

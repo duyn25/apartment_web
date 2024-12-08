@@ -1,0 +1,291 @@
+[{
+  "_id": {
+    "$oid": "66ba23f878be3025421db063"
+  },
+  "name": "Luxurious Penthouse",
+  "location": {
+    "address": "123 Elite Street, Prime City",
+    "city": "Prime City",
+    "state": "Elite State",
+    "zipcode": "12345",
+    "country": "Luxuryland"
+  },
+  "price": 2500000,
+  "description": "A stunning penthouse with breathtaking city views, offering the epitome of luxury living.",
+  "features": {
+    "area": "3500 sqft",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "balconies": 2,
+    "floor": "Top floor",
+    "furnishing": "Fully furnished",
+    "parking": "2 reserved parking spaces"
+  },
+  "amenities": [
+    "Swimming Pool",
+    "Gym",
+    "Spa",
+    "24/7 Security",
+    "Concierge Service",
+    "Private Elevator",
+    "Home Theater",
+    "Smart Home Technology"
+  ],
+  "images": [
+    "https://example.com/images/penthouse1.jpg",
+    "https://example.com/images/penthouse2.jpg",
+    "https://example.com/images/penthouse3.jpg"
+  ],
+  "videoTour": "https://example.com/videos/penthouse-tour.mp4",
+  "nearbyFacilities": {
+    "shoppingMalls": [
+      "Luxury Mall",
+      "Elite Plaza"
+    ],
+    "schools": [
+      "Prime International School",
+      "Elite Academy"
+    ],
+    "hospitals": [
+      "Prime City Hospital",
+      "Elite Healthcare Center"
+    ],
+    "publicTransport": [
+      "Prime City Metro Station",
+      "Elite Bus Stop"
+    ]
+  },
+  "contactInfo": {
+    "$oid": "66b4e9db5842ad48522a617d"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ba23f878be3025421db064"
+  },
+  "name": "Modern Apartment",
+  "location": {
+    "address": "456 Modern Lane, Tech City",
+    "city": "Tech City",
+    "state": "Innovation State",
+    "zipcode": "67890",
+    "country": "Futurista"
+  },
+  "price": 1800000,
+  "description": "A sleek, modern apartment in the heart of Tech City, ideal for young professionals.",
+  "features": {
+    "area": "1200 sqft",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "balconies": 1,
+    "floor": "15th floor",
+    "furnishing": "Semi-furnished",
+    "parking": "1 reserved parking space"
+  },
+  "amenities": [
+    "Rooftop Garden",
+    "Gym",
+    "Co-working Space",
+    "24/7 Security",
+    "Smart Home Technology"
+  ],
+  "images": [
+    "https://example.com/images/modern1.jpg",
+    "https://example.com/images/modern2.jpg",
+    "https://example.com/images/modern3.jpg"
+  ],
+  "videoTour": "https://example.com/videos/modern-tour.mp4",
+  "nearbyFacilities": {
+    "shoppingMalls": [
+      "Tech Mall",
+      "Innovation Plaza"
+    ],
+    "schools": [
+      "Tech International School",
+      "Innovation Academy"
+    ],
+    "hospitals": [
+      "Tech City Hospital",
+      "Innovation Healthcare Center"
+    ],
+    "publicTransport": [
+      "Tech City Metro Station",
+      "Innovation Bus Stop"
+    ]
+  },
+  "contactInfo": {
+    "$oid": "66b4e9db5842ad48522a617b"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ba23f878be3025421db065"
+  },
+  "name": "Cozy Condo",
+  "location": {
+    "address": "789 Cozy Corner, Comfort Town",
+    "city": "Comfort Town",
+    "state": "Relaxation State",
+    "zipcode": "54321",
+    "country": "Peacefulland"
+  },
+  "price": 850000,
+  "description": "A cozy and comfortable condo perfect for small families.",
+  "features": {
+    "area": "900 sqft",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "balconies": 1,
+    "floor": "5th floor",
+    "furnishing": "Fully furnished",
+    "parking": "1 reserved parking space"
+  },
+  "amenities": [
+    "Community Pool",
+    "Playground",
+    "24/7 Security",
+    "Community Center"
+  ],
+  "images": [
+    "https://example.com/images/cozy1.jpg",
+    "https://example.com/images/cozy2.jpg",
+    "https://example.com/images/cozy3.jpg"
+  ],
+  "videoTour": "https://example.com/videos/cozy-tour.mp4",
+  "nearbyFacilities": {
+    "shoppingMalls": [
+      "Comfort Mall",
+      "Peace Plaza"
+    ],
+    "schools": [
+      "Comfort Elementary",
+      "Peace High School"
+    ],
+    "hospitals": [
+      "Comfort Town Clinic",
+      "Peaceful Hospital"
+    ],
+    "publicTransport": [
+      "Comfort Bus Stop",
+      "Peaceful Metro Station"
+    ]
+  },
+  "contactInfo": {
+    "$oid": "66b4e9db5842ad48522a617c"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ba23f878be3025421db066"
+  },
+  "name": "Urban Loft",
+  "location": {
+    "address": "321 Urban Road, Cityville",
+    "city": "Cityville",
+    "state": "Urban State",
+    "zipcode": "87654",
+    "country": "MetroLand"
+  },
+  "price": 1500000,
+  "description": "An urban loft with modern amenities and stylish design, located in the bustling heart of the city.",
+  "features": {
+    "area": "2000 sqft",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "balconies": 1,
+    "floor": "10th floor",
+    "furnishing": "Semi-furnished",
+    "parking": "2 reserved parking spaces"
+  },
+  "amenities": [
+    "Gym",
+    "Rooftop Pool",
+    "24/7 Security",
+    "Concierge Service"
+  ],
+  "images": [
+    "https://example.com/images/urban1.jpg",
+    "https://example.com/images/urban2.jpg",
+    "https://example.com/images/urban3.jpg"
+  ],
+  "videoTour": "https://example.com/videos/urban-tour.mp4",
+  "nearbyFacilities": {
+    "shoppingMalls": [
+      "Urban Mall",
+      "Cityville Plaza"
+    ],
+    "schools": [
+      "Cityville International School",
+      "Urban Academy"
+    ],
+    "hospitals": [
+      "Cityville General Hospital",
+      "Urban Healthcare Center"
+    ],
+    "publicTransport": [
+      "Cityville Metro Station",
+      "Urban Bus Stop"
+    ]
+  },
+  "contactInfo": {
+    "$oid": "66b4e9db5842ad48522a617e"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ba23f878be3025421db067"
+  },
+  "name": "Beachfront Villa",
+  "location": {
+    "address": "654 Ocean Drive, Beach City",
+    "city": "Beach City",
+    "state": "Coastal State",
+    "zipcode": "65432",
+    "country": "Sealand"
+  },
+  "price": 3000000,
+  "description": "A luxurious beachfront villa with stunning ocean views and private beach access.",
+  "features": {
+    "area": "4500 sqft",
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "balconies": 3,
+    "floor": "2 floors",
+    "furnishing": "Fully furnished",
+    "parking": "3 reserved parking spaces"
+  },
+  "amenities": [
+    "Private Pool",
+    "Spa",
+    "Gym",
+    "24/7 Security",
+    "Concierge Service"
+  ],
+  "images": [
+    "https://example.com/images/beach1.jpg",
+    "https://example.com/images/beach2.jpg",
+    "https://example.com/images/beach3.jpg"
+  ],
+  "videoTour": "https://example.com/videos/beach-tour.mp4",
+  "nearbyFacilities": {
+    "shoppingMalls": [
+      "Seaside Mall",
+      "Beach Plaza"
+    ],
+    "schools": [
+      "Beach City International School",
+      "Coastal Academy"
+    ],
+    "hospitals": [
+      "Beach City Hospital",
+      "Coastal Healthcare Center"
+    ],
+    "publicTransport": [
+      "Beach City Metro Station",
+      "Coastal Bus Stop"
+    ]
+  },
+  "contactInfo": {
+    "$oid": "66b4e9db5842ad48522a6180"
+  }
+}]

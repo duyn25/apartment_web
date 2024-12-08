@@ -1,0 +1,73 @@
+/* Preloader styles */
+.js-preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preloader-inner {
+  text-align: center;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.dots span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  margin: 0 5px;
+  animation: dotsBounce 1s infinite ease-in-out;
+}
+
+.dots span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.dots span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.dots span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.dots span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+@keyframes dotBounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+}
+
+@keyframes dotsBounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+
+/* Hide preloader when page is loaded */
+body.loaded .js-preloader {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 2s, visibility 2s;
+}
